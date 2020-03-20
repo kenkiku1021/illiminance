@@ -1,0 +1,10 @@
+redis:
+  server: localhost
+  port: 6379
+  db: 0
+  password: 
+  basename: "illuminance-data"
+names:
+  - id: "test-room"
+    title: "テスト"
+    threshold: 2500

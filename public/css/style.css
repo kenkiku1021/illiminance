@@ -1,0 +1,28 @@
+body {
+    padding-top: 5rem;
+}
+
+.data-card {
+    width: 20em;
+}
+
+.status {
+    font-size: 300%;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.status.on {
+    background-color: lightyellow;
+    border: solid 1px yellow;
+}
+
+.status.off {
+    background-color: lightgray;
+    border: solid 1px gray;
+}
+
+.at {
+    text-align: right;
+}
